@@ -40,7 +40,7 @@
                     </div>
 
                     <div class="mb-3">
-                        <label for="nombre" class="form-label"> Nombres </label>
+                        <label for="nombre" class="form-label"> Nombre </label>
                         <input type="text" class="form-control" name="nomb_usu" id="nomb_usu" placeholder="Ingrese nombre/s" required>
                     </div>
 

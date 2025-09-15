@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    
     <header>
         <img src="controller/image/zoo.png" alt="animal-zoo">
         <h1>Bienvenido al Zoológico</h1>
