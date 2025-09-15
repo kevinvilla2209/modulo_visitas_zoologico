@@ -1,0 +1,79 @@
+body {
+    background: url('../image/back.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-card {
+    max-width: 400px;
+    margin: 100px auto;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.login-header {
+    background: #198754;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.login-body {
+    padding: 30px;
+}
+
+.btn-login {
+    background-color: #198754;
+    border: none;
+}
+
+.btn-login:hover {
+    background-color: #145c35;
+}
+
+.logo-animal {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.welcome-card {
+      max-width: 500px;
+      margin: 100px auto;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+    }
+
+    .welcome-header {
+      background: #198754; /* Verde zoológico */
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .welcome-header img {
+      width: 80px;
+      margin-bottom: 10px;
+    }
+
+    .welcome-body {
+      padding: 30px;
+      text-align: center;
+    }
+
+    .btn-zoo {
+      background-color: #198754;
+      border: none;
+      border-radius: 10px;
+      padding: 10px 20px;
+      color: white;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .btn-zoo:hover {
+      background-color: #145c35;
+    }

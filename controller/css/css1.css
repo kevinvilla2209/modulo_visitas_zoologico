@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: rgba(25, 135, 84, 0.95);
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+header img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    background: #fff;
+    padding: 3px;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+}
+
+header p {
+    margin: 0 15px 0 0;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.volver {
+    color: #fff;
+    text-decoration: none;
+    font-weight: normal;
+    margin-left: auto;
+    transition: 0.2s;
+}
+
+.volver:hover {
+    color: #d4f5d4;
+    text-decoration: none;
+}
+
+main {
+    margin-top: 60px;
+    text-align: center;
+    padding: 20px;
+}
+
+.opcion {
+    background: rgba(255, 255, 255, 0.95);
+    color: #333;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, background 0.3s ease;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.opcion:hover {
+    transform: translateY(-8px) scale(1.02);
+    background: #ffffff;
+}
+
+.opcion img {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.btn-zoo {
+    background-color: #198754;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn-zoo:hover {
+    background-color: #08d367;
+    transform: scale(1.05);
+}
+
+.volver i {
+    margin-right: 4px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+
+
