@@ -32,7 +32,7 @@ try {
         <img src="controller/image/tickets.png" alt="visitasicon">
         <div>
             <h1>Visitas</h1>
-            <p>Registrar, cargar y consultar las visitas al Zoologico</p>
+            <p>Registrar, cargar y consultar las visitas al Zoológico</p>
         </div>
 
         <a class="volver" href="modulo.php">
@@ -119,7 +119,7 @@ try {
                     <thead class="table-success">
                         <tr>
                             <th>Documento</th>
-                            <th>Tipo</th>
+                            <th>Tipo Visitante</th>
                             <th>Fecha Visita</th>
                             <th>Hora Entrada</th>
                         </tr>
